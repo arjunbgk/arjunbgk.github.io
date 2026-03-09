@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Explorer - Enquiry</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="places.html">Places</a></li>
+                <li><a href="culture.html">Culture</a></li>
+                <li><a href="travel_guide.html">Travel Guide</a></li>
+                <li><a href="food.html">Food</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Tourist Enquiry</h1>
+        <p>Have questions about your upcoming trip? Ask us below!</p>
+        
+        <form class="enquiry-form" id="touristEnquiryForm">
+            <div class="form-group">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" required placeholder="Enter your full name">
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" required placeholder="Enter your email">
+            </div>
+
+            <div class="form-group">
+                <label for="destination">Destination of Interest:</label>
+                <input type="text" id="destination" required placeholder="Where do you want to go?">
+            </div>
+            
+            <div class="form-group">
+                <label for="message">Your Question:</label>
+                <textarea id="message" rows="5" required placeholder="What do you need help with?"></textarea>
+            </div>
+            
+            <button type="submit">Submit Enquiry</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Travel Explorer. All Rights Reserved.</p>
+    </footer>
+
+    <script src="enquiry.js"></script>
+</body>
+</html>
